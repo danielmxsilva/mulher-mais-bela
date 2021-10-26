@@ -1,0 +1,518 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+:root{
+	--rosa: #E72375;
+	--cinza4: #6D6C6C;
+	--cinza3: #454545;
+	--cinza2: #626262;
+	--cinza1: #565656;
+	--azul: #2F126D;
+	--roxo1: #39075C;
+	--roxo2: #7021BA;
+	--roxo3: #3F3768;
+	--roxo4: #2A244A;
+	--roxo5: #39075C;
+	--verde1: #2BA445;
+	--verde2: #74BE33;
+}
+
+footer{
+	background-color: #4B4B4B;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.bg-header{
+	position: relative;
+	padding: 60px 0;
+	background-image: linear-gradient(180deg, #2D2559 0%, #39075C 100%);
+	color: white;
+}
+
+.final-bg-header{
+	padding: 30px 0;
+	background-image: linear-gradient(180deg, #39075C 0%, white 100%);
+}
+
+.comeco-bg-resultados{
+	padding: 30px 0;
+	background-image: linear-gradient(180deg, white 0%, #E4E4E4 100%);
+}
+
+.bg-header h2{
+	line-height: 34px;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.bg-header h3{
+	margin: 20px 0 30px 0;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.bg-header .p-rosa{
+	color: var(--rosa);
+}
+
+.flex-header{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.w-paragrafo ul{
+	list-style: none;
+}
+
+.w-paragrafo ul i{
+	color: #FFCF00;
+}
+
+.chamada-acao i{
+	font-size: 23px;
+	margin-right: 7px;
+	color: #FFCF00;
+}
+
+.w-paragrafo li{
+	margin: 5px 0;
+	font-size: 19px;
+}
+
+.img-btn img{
+	max-width: 300px;
+	width: 100%;
+}
+
+.w-img{
+	width: 50%;
+}
+
+.w-titulo,.w-paragrafo{
+	width: 50%;
+}
+
+.chamada-acao{
+	margin-top: 45px;
+}
+
+.btn-rosa i{
+	font-size: 18px;
+	color: white;
+}
+
+.btn-rosa a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: 0 0 10px black;
+	background-color: var(--rosa);
+	transition: 0.3s;
+}
+
+.btn-rosa a:hover{
+	background-color: #C31151;
+}
+
+.btn-rosa a:active{
+	background-color: var(--rosa);
+}
+
+.img-btn{
+	margin-top: 30px;
+}
+
+.h2-mobile{
+	display: none;
+}
+
+/*
+.final-bg-header{
+
+}
+
+.img-fill-header{
+	background-image: url(../img/header/fill-header-2.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40px;
+}
+*/
+
+/*O PREFERIDO DAS FAMOSAS*/
+	
+.preferido{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.preferido h2{
+	color: var(--rosa);
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.w25{
+	width: 25%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.preferido .flex{
+	padding: 40px 0;
+}
+
+.preferido .flex h3{
+	font-size: 22px;
+	font-weight: 800;
+	color: var(--cinza3);
+}
+
+.preferido .w25 img{
+	max-width: 90%;
+}
+
+/****/
+
+/***RESULTADOS COM HIDRALISO***/
+
+.resultados-hidraliso{
+	text-align: center;
+	background-color: #E4E4E4;
+	padding: 60px 0;
+}
+
+.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2{
+	color: var(--rosa);
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p{
+	margin-top: 20px;
+	color: var(--cinza1);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.wraper-resultados{
+	position: relative;
+	margin-top: 40px;
+	max-width: 100%;
+}
+
+.single-foto{
+	/*
+	padding-top: 60%;
+	width: 100%;
+	float: left;*/
+}
+
+.slick-arrow{
+	position: absolute;
+	z-index: 99;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: transparent;
+	border: 0;
+}
+
+.slick-arrow i{
+	cursor: pointer;
+	font-size: 30px;
+	color: white;
+	font-weight: 800;
+}
+
+.slick-prev{
+	left: 10px;
+}
+
+.slick-next{
+	right: 10px;
+}
+
+.slick-dots{
+	list-style-type: none;
+}
+
+.slick-dots li{
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.slick-dots li button{
+	cursor: pointer;
+	font-size: 0;
+	width: 8px;
+	height: 8px;
+	border: 0;
+	background-color: #b6b6b6;
+	border-radius: 50%;
+}
+
+li.slick-active  button{
+	background-color: var(--roxo1);
+}
+
+
+/******/
+
+/***BENEFICIOS HIDRALISO***/
+
+.beneficios{
+	padding: 80px 0 70px 0;
+	text-align: center;
+}
+
+.beneficios .flex{
+	padding: 40px 0;
+}
+
+.beneficios .flex .w25{
+	padding: 20px 5px;
+}
+
+.beneficios .flex img{
+	max-width: 60%;
+	border-radius: 50%;
+}
+
+.beneficios .flex h3{
+	color: var(--cinza3);
+	padding: 10px 0;
+}
+
+.beneficios .flex p{
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--cinza3);
+}
+
+/******/
+
+/***QUEM USA***/
+
+
+.quem-usa{
+	text-align: center;
+	background-color: #fcfcfc;
+	padding: 60px 0 80px 0;
+}
+
+.quem-usa p{
+	color: var(--azul);
+}
+
+.wraper-video-aprova{
+	position: relative;
+	padding: 40px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wraper-video-single{
+	width: 33.3%;
+	padding: 20px;
+}
+
+.wraper-video-single video{
+	max-width: 100%;
+	border: 8px solid var(--roxo5);
+	border-radius: 30px;
+}
+
+.quem-usa .slick-dots{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.quem-usa .slick-prev{
+	left: 30px;
+}
+
+.quem-usa .slick-next{
+	right: 30px;
+}
+
+
+/******/
+
+/***RENOVE CABELO***/
+
+.renove-cabelo h2,.renove-cabelo p{
+	color: white;
+}
+
+.renove-cabelo{
+	text-align: center;
+	background-color: var(--roxo1);
+	padding: 50px 0;
+	color: white;
+}
+
+.renove-cabelo .flex{
+	margin-top: 40px;
+}
+
+.renove-cabelo .w-paragrafo{
+	width: 50%;
+	text-align: left;
+}
+
+.renove-cabelo .w-paragrafo ul{
+	display: inline-block;
+	text-align: center;
+	margin: 40px 0 20px 0;
+}
+
+.renove-cabelo .w-paragrafo li{
+	text-align: left;
+	margin: 10px 0;
+}
+
+.renove-cabelo .w-paragrafo .chamada-acao{
+	text-align: center;
+}
+
+.wraper-img{
+	width: 70%;
+	padding-top: 80%;
+	position: relative;
+}
+
+.wraper-img img{
+	border-radius: 15px;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/******/
+
+@media screen and (max-width: 1000px){
+	.h2-mobile{
+		display: block;
+	}
+	.h2-desktop{
+		display: none;
+	}
+	.w-img,.chamada-acao,.bg-header h3{
+		text-align: center;
+	}
+	.w-img h2{
+		font-size: 30px;
+		display: inline-block;
+	}
+	.w-img img{
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.flex-header{
+		flex-wrap: wrap;
+	}
+	.w-img,.w-paragrafo{
+		text-align: center;
+		width: 100%;
+	}
+	.w-img img{
+		max-width: 100%;
+	}
+	.bg-header h2{
+		line-height: 30px;
+	}
+	.bg-header h3{
+		font-size: 18px;
+	}
+	.w-paragrafo ul{
+		text-align: left;
+		display: inline-block;
+	}
+	.preferido .w25{
+		margin: 10px 0;
+		width: 100%;
+	}
+	.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2{
+		font-size: 40px;
+	}
+	.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p{
+		font-size: 18px;
+	}
+	.beneficios .flex .w25{
+		width: 50%;
+	}
+	.renove-cabelo .flex{
+		flex-direction: column;
+	}
+	.renove-cabelo .flex .w50,.renove-cabelo .flex .w-paragrafo{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.renove-cabelo .wraper-img{
+		width: 90%;
+		padding-top: 100%;
+		display: inline-block;
+	}
+	.renove-cabelo .w-paragrafo{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.beneficios .flex .w25 h3{
+		font-size: 24px;
+	}
+	.beneficios .flex .w25 p{
+		font-size: 20px;
+	}
+	.beneficios .flex .w25{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 340px){
+	.btn-rosa a{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	.btn-rosa a{
+		font-size: 16px;
+	}
+}

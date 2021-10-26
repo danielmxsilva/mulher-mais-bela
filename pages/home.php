@@ -1,0 +1,201 @@
+<header class="bg-header">
+	<div class="container">
+		<div class="flex-header">
+			<div class="w-img">
+				<h2 class="h2-mobile">CABELOS DE SALÃO<br/><span class="p-rosa">SEM SAIR DE CASA</span></h2>
+				<img src="<?php echo INCLUDE_PATH?>img/header/frascos-hidraliso-2.png">
+			</div><!--w-img-->
+			<div class="w-paragrafo">
+				<h2 class="h2-desktop">CABELOS DE SALÃO<br/><span class="p-rosa">SEM SAIR DE CASA</span></h2>
+				<h3><b>HIDRALISO</b> É UM PRODUTO QUE FOI DESENVOLVIDO PARA FACILITAR A VIDA DE QUEM QUER TER CABELOS SEMPRE LISOS E LINDOS EM CASA.</h3>
+				<ul>
+					<li><i class="fas fa-check-double"></i> PARA TODOS OS CABELOS</li>
+					<li><i class="fas fa-check-double"></i> AÇÃO ANTI-FRIZZ</li>
+					<li><i class="fas fa-check-double"></i> MAIS BRILHO E MACIEZ</li>
+					<li><i class="fas fa-check-double"></i> SEM DANOS AOS FIOS</li>
+					<li><i class="fas fa-check-double"></i> HIDRATAÇÃO INTENSA</li>
+					<li><i class="fas fa-check-double"></i> MÁXIMA DURAÇÃO</li>
+				</ul>
+				<div class="chamada-acao">
+					<div class="btn-rosa">
+						<a href="#"><i class="fas fa-heart"></i>QUERO MEU CABELO LISO</a>
+					</div><!--btn-rosa-->
+					<div class="img-btn">
+						<img src="<?php echo INCLUDE_PATH?>img/compra-segura-branco.png">
+					</div><!--img-btn-->
+				</div><!--chamada-acao-->
+			</div><!--w-paragrafo-->
+		</div><!--flex-box-->
+	</div><!--container-->
+</header>
+
+
+<div class="final-bg-header">
+	<div class="img-fill-header"></div>
+</div>
+
+
+<section class="preferido">
+	<div class="container">
+		<h2>O Preferido DAS FAMOSAS</h2>
+		<div class="flex">
+
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/depoimentos-veja/depoimento-veja-voce-mesma-1.png">
+				<h3>Anna Livya</h3>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/depoimentos-veja/depoimento-veja-voce-mesma-2.png">
+				<h3>Débora Lyra</h3>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/depoimentos-veja/depoimento-veja-voce-mesma-3.png">
+				<h3>Lu Lourenço</h3>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/depoimentos-veja/depoimento-veja-voce-mesma-4.png">
+				<h3>Paulinha Abelha</h3>
+			</div><!--w25-->
+
+		</div><!--flex-->
+
+		<div class="chamada-acao">
+			<div class="btn-rosa">
+				<a href="#"><i class="fas fa-heart"></i>QUERO MEU CABELO LISO</a>
+			</div><!--btn-rosa-->
+			<div class="img-btn">
+				<img src="<?php echo INCLUDE_PATH?>img/compra-segura-preto-cinza.png">
+			</div><!--img-btn-->
+		</div><!--chamada-acao-->
+
+	</div><!--container-->
+</section><!--preferido-->
+
+<div class="comeco-bg-resultados">
+	<div class="img-fill-resultados"></div>
+</div>
+<section class="resultados-hidraliso">
+	<div class="container">
+		<h2>Resultados INCRÍVEIS COM HIDRALISO</h2>
+		<p>Mais de 57 mil mulheres satisfeitas, com 98% de aprovação!</p>
+
+		<div class="wraper-resultados">
+			<img src="<?php echo INCLUDE_PATH?>img/resultados-foto/depoimento-1.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/resultados-foto/depoimento-2.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/resultados-foto/depoimento-3.jpg">
+		</div><!--wraper-resultados-->
+
+	</div><!--container-->
+</section><!--resultados-hidraliso-->
+
+<section class="beneficios">
+	<div class="container">
+
+		<h2>Benefícios INCOMPARÁVEIS</h2>
+		<p>POR QUE HIDRALISO É DIFERENTE?</p>
+
+		<div class="flex">
+
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/beneficios/para-todos-cabelos-hidraliso.png">
+				<h3>PARA TODOS OS CABELOS</h3>
+				<p>O Hidraliso é compatível com qualquer tonalidade ou tipo de cabelo, não importa se os cabelos são lisos, cacheados, ondulados ou crespos.</p>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/beneficios/produto-natural-hidraliso.png">
+				<h3>PRODUTO NATURAL</h3>
+				<p>Hidraliso possui uma composição natural, por isso, não existem efeitos colaterais relacionados ao uso do produto. Além disso, é super seguro.</p>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/beneficios/teste-animais-hidraliso.png">
+				<h3>NÃO TESTAMOS EM ANIMAIS</h3>
+				<p>Além de ser um produto natural, o Hidraliso não faz testes em animais em nenhum lugar do mundo.</p>
+			</div><!--w25-->
+			<div class="w25">
+				<img src="<?php echo INCLUDE_PATH?>img/beneficios/cabelos-formol-hidraliso.png">
+				<h3>LIVRE DE FORMOL E PARABENOS</h3>
+				<p>Hidraliso não utiliza nenhum composto químico que danifica os cabelos, durante ou após os procedimentos.</p>
+			</div><!--w25-->
+
+		</div><!--flex-->
+
+		<div class="chamada-acao">
+			<div class="btn-rosa">
+				<a href="#"><i class="fas fa-heart"></i>QUERO MEU CABELO LISO</a>
+			</div><!--btn-rosa-->
+			<div class="img-btn">
+				<img src="<?php echo INCLUDE_PATH?>img/compra-segura-preto-cinza.png">
+			</div><!--img-btn-->
+		</div><!--chamada-acao-->
+
+	</div><!--container-->
+</section><!--beneficios-->
+
+<section class="quem-usa">
+	<div class="container">
+		<h2>Benefícios INCOMPARÁVEIS</h2>
+		<p>Veja os RESULTADOS de quem já usa o Hidraliso</p>
+
+		<div class="wraper-video-aprova">
+
+			<div class="wraper-video-single">
+				<video controls muted>
+					<source src="<?php echo INCLUDE_PATH?>img/quem-usa/video-1.mp4" type="video/mp4">
+				</video>
+			</div><!--wraper-video-single-->
+			<div class="wraper-video-single">
+				<video controls muted>
+					<source src="<?php echo INCLUDE_PATH?>img/quem-usa/video-2.mp4" type="video/mp4">
+				</video>
+			</div><!--wraper-video-single-->
+			<div class="wraper-video-single">
+				<video controls muted>
+					<source src="<?php echo INCLUDE_PATH?>img/quem-usa/video-3.mp4" type="video/mp4">
+				</video>
+			</div><!--wraper-video-single-->
+
+		</div><!--wraper-video-aprova-->
+
+	</div><!--container-->
+</section><!--quem-usa-->
+
+<section class="renove-cabelo">
+	<div class="container">
+		<h2>RENOVE A BELEZA DO SEU CABELO!</h2>
+		<p>Você merece ter um cabelo maravilhoso todos os dias</p>
+
+		<div class="flex">
+
+			<div class="w50">
+
+				<div class="wraper-img">
+					<img src="<?php echo INCLUDE_PATH?>img/renove-seu-cabelo/antes-hidraliso.jpeg">
+				</div><!--wraper-img-->
+
+			</div><!--w50-->
+			<div class="w-paragrafo">
+
+				<h3>MOVA AS SETINHAS PARA VER O ANTES E DEPOIS.</h3>
+				<ul>
+					<li><i class="fas fa-check-double"></i> PARA TODOS OS CABELOS</li>
+					<li><i class="fas fa-check-double"></i> AÇÃO ANTI-FRIZZ</li>
+					<li><i class="fas fa-check-double"></i> MAIS BRILHO E MACIEZ</li>
+					<li><i class="fas fa-check-double"></i> SEM DANOS AOS FIOS</li>
+					<li><i class="fas fa-check-double"></i> HIDRATAÇÃO INTENSA</li>
+					<li><i class="fas fa-check-double"></i> MÁXIMA DURAÇÃO</li>
+				</ul>
+				<div class="chamada-acao">
+					<div class="btn-rosa">
+						<a href="#"><i class="fas fa-heart"></i>QUERO MEU CABELO LISO</a>
+					</div><!--btn-rosa-->
+					<div class="img-btn">
+						<img src="<?php echo INCLUDE_PATH?>img/compra-segura-branco.png">
+					</div><!--img-btn-->
+				</div><!--chamada-acao-->
+				
+			</div><!--w50-->
+
+		</div><!--flex-->
+
+	</div><!--container-->
+</section><!--renove-cabelo-->
