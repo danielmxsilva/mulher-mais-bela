@@ -183,6 +183,10 @@ footer p{
 	width: 25%;
 }
 
+.w33{
+	width: 33.3%;
+}
+
 .w50{
 	width: 50%;
 }
@@ -211,13 +215,13 @@ footer p{
 	padding: 60px 0;
 }
 
-.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2{
+.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2,.h2-section{
 	color: var(--rosa);
 	font-size: 50px;
 	font-weight: 900;
 }
 
-.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p{
+.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p,.p-section{
 	margin-top: 20px;
 	color: var(--cinza1);
 	font-weight: 700;
@@ -421,6 +425,218 @@ li.slick-active  button{
 	height: 100%;
 }
 
+/*
+.final-bg-section{
+	width: 100%;
+}
+
+.img-fill-section{
+	background-image: url(../img/fundo-bg-section-2.png);
+	height: 40px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+*/
+/******/
+
+/****KIT COMPRA****/
+
+
+
+.kit-compra{
+	padding: 90px 0 50px 0;
+	text-align: center;
+}
+
+.wraper-kit p,.wraper-kit h2,.wraper-kit a,.wraper-kit b,.wraper-kit span{
+	font-family: 'Baloo 2', cursive !important;
+}
+
+.wraper-kit h2{
+	font-size: 33px;
+	font-weight: 900;
+}
+
+
+.wraper-kit b{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.wraper-kit p{
+	font-weight: 600;
+}
+
+.wraper-kit{
+	padding: 80px 0 0 0;
+}
+
+.wraper-kit .p-big{
+	font-size: 34px;
+	font-weight: 900;
+}
+
+.preco-off b{
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.preco-p b{
+	font-size: 28px;
+}
+
+.p-frete{
+	margin: 20px 0;
+}
+
+.p-frete p{
+	color: #0EAE2D;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.frete-amarelo p{
+	color: #F3EB10;
+}
+
+.wraper-kit .w33{
+	padding: 30px 20px;
+}
+
+.wraper-kit .wraper-kit-single{
+	border-radius: 20px;
+	box-shadow: 0 0 10px black;
+	padding: 30px 10px;
+}
+
+.wraper-kit-single img{
+	margin: 10px 0;
+	max-width: 70%;
+}
+
+.wraper-p .btn-rosa a{
+	padding: 7px 25px;
+}
+
+.wraper-p .img-btn img{
+	max-width: 90%;
+}
+
+.wraper-kit-p{
+	margin: 10px 0;
+}
+
+.wraper-kit .w33:nth-of-type(2) .wraper-kit-single{
+	position: relative;
+	color: white;
+	background-color: var(--roxo2);
+	border: 4px solid var(--rosa);
+}
+
+.wraper-kit .mais-vendido{
+	top: 0;
+	position: absolute;
+	left: 50%;
+	background-color: var(--rosa);
+	color: white;
+	border-radius: 10px;
+	padding: 10px 5px;
+	transform: translate(-50%,-50%);
+}
+
+.mais-vendido h2{
+	font-size: 18px;
+}
+
+.line-red{
+	position: relative;
+	width: 100%;
+}
+
+.line-line-red{
+	width: 25%;
+	height: 2px;
+	background-color: var(--rosa);
+	position: absolute;
+	top: 10px;
+}
+
+.entrega-segura{
+	background-color: #f6f6f6;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.wraper-msg{
+	padding: 100px 0 50px 0;
+}
+
+.wraper-msg img{
+	padding: 0 15px;
+	border-radius: 40px;
+}
+
+.entrega-segura .slick-arrow i{
+	color: var(--roxo2);
+}
+
+section.midia{
+	background-color: var(--roxo3);
+	color: white;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.midia h2{
+	font-size: 34px;
+	font-weight: 700;
+}
+
+.midia p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.midia .flex{
+	margin: 60px 0 0 0;
+}
+
+.midia .flex p{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.pirataria{
+	padding: 80px 0; 
+	text-align: center;
+}
+
+.wraper-img-pirata{
+	max-width: 500px;
+	width: 100%;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.wraper-p-pirata{
+	width: 100%;
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.wraper-img-pirata img{
+	width: 100%;
+}
+
+.wraper-p-pirata h3{
+	line-height: 28px;
+	color: var(--cinza4);
+	font-size: 20px;
+	font-weight: 400;
+}
+
 /******/
 
 @media screen and (max-width: 1000px){
@@ -439,6 +655,10 @@ li.slick-active  button{
 	}
 	.w-img img{
 		max-width: 400px;
+	}
+
+	.mais-vendido h2{
+		font-size: 16px;
 	}
 }
 
@@ -467,10 +687,10 @@ li.slick-active  button{
 		margin: 10px 0;
 		width: 100%;
 	}
-	.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2{
+	.resultados-hidraliso h2,.beneficios h2,.quem-usa h2,.renove-cabelo h2,.h2-section{
 		font-size: 40px;
 	}
-	.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p{
+	.resultados-hidraliso p,.beneficios p,.quem-usa p,.renove-cabelo p,.p-section{
 		font-size: 18px;
 	}
 	.beneficios .flex .w25{
@@ -491,6 +711,32 @@ li.slick-active  button{
 	.renove-cabelo .w-paragrafo{
 		text-align: center;
 	}
+
+	.wraper-kit .w33{
+		width: 100%;
+	}
+
+	.kit-compra .flex{
+		flex-direction: column;
+	}
+
+	.wraper-p .btn-rosa a{
+		font-size: 28px;
+	}
+
+	.mais-vendido h2{
+		font-size: 20px;
+	}
+
+	.midia .flex{
+		flex-direction: column;
+	}
+
+	.midia .flex .w33{
+		width: 100%;
+		margin: 20px 0;
+	}
+
 }
 
 @media screen and (max-width: 540px){
@@ -502,6 +748,9 @@ li.slick-active  button{
 	}
 	.beneficios .flex .w25{
 		width: 100%;
+	}
+	.btn-rosa a{
+		font-size: 24px;
 	}
 }
 

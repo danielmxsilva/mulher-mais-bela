@@ -16,6 +16,27 @@ $(document).ready(function(){
 		 ]
 	});
 
+	$('.wraper-msg').slick({
+		 autoplay:true,
+		 infinite: true,
+		 slidesToShow: 3,
+		 dots:true,
+		 responsive:[
+		 	{
+		 		breakpoint: 768,
+			 	settings:{
+			 		slidesToShow: 2,
+			 	}
+		 	},
+		 	{
+		 		breakpoint: 580,
+			 	settings:{
+			 		slidesToShow: 1,
+			 	}
+		 	}
+		 ]
+	});
+
 	$('.wraper-video-aprova').slick({
 		 infinite: false,
 		 slidesToShow: 3,

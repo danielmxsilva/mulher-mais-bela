@@ -199,3 +199,188 @@
 
 	</div><!--container-->
 </section><!--renove-cabelo-->
+
+<!--
+<div class="final-bg-section">
+	<div class="img-fill-section"></div>
+</div>
+-->
+
+<section class="kit-compra">
+	<div class="container">
+		<h2 class="h2-section">PEÇA AGORA O SEU!</h2>
+		<p class="p-section">RESULTADO JÁ NA PRIMEIRA APLICAÇÃO, APROVEITE NOSSA PROMOÇÃO.</p>
+
+		<div class="wraper-kit flex">
+
+			<div class="w33">
+				<div class="wraper-kit-single">
+					<h2>kit 01</h2>
+					<img src="<?php echo INCLUDE_PATH?>img/kit-compra/um-frasco-hidraliso.png">
+					<div class="wraper-kit-p">
+						<p><b>Leve apenas 1</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p line-red">
+						<p>De <span class="line-line-red"></span>R$ 197,00 por apenas:</p>
+					</div><!--wraper-kit-p-->
+					<div class="wrpaer-kit-p preco-p">
+						<p><b>12x <span class="p-big">R$ 14,</span>76</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p preco-off">
+						<p>Ou R$ 147,00 à vista.<br><b>15% OFF</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p p-frete frete-verde">
+						<p><i class="fas fa-truck"></i> FRETE GRÁTIS</p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-p btn-kit">
+						<div class="chamada-acao">
+							<div class="btn-rosa">
+								<a href="#"><i class="fas fa-thumbs-up"></i>Quero Este</a>
+							</div><!--btn-rosa-->
+							<div class="img-btn">
+								<img src="<?php echo INCLUDE_PATH?>img/compra-segura-preto-cinza.png">
+							</div><!--img-btn-->
+						</div><!--chamada-acao-->
+					</div><!--wraper-p btn-kit-->
+				</div><!--wraper-kit-single-->
+			</div><!--w33-->
+
+			<div class="w33">
+				<div class="wraper-kit-single">
+
+					<div class="mais-vendido">
+						<h2>MAIS VENDIDO</h2>
+					</div>
+
+					<h2>kit 02</h2>
+					<img src="<?php echo INCLUDE_PATH?>img/kit-compra/tres-frascos-hidraliso.png">
+					<div class="wraper-kit-p">
+						<p><b>Compre 2 leve 3</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p line-red">
+						<p>De <span class="line-line-red"></span>R$ 591,00 por apenas:</p>
+					</div><!--wraper-kit-p-->
+					<div class="wrpaer-kit-p preco-p">
+						<p><b>12x <span class="p-big">R$ 19,</span>78</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p preco-off">
+						<p>Ou R$ 197,00 à vista.<br><b>69% OFF</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p p-frete frete-amarelo">
+						<p><i class="fas fa-truck"></i> FRETE GRÁTIS</p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-p btn-kit">
+						<div class="chamada-acao">
+							<div class="btn-rosa">
+								<a href="#"><i class="fas fa-thumbs-up"></i>Quero Este</a>
+							</div><!--btn-rosa-->
+							<div class="img-btn">
+								<img src="<?php echo INCLUDE_PATH?>img/compra-segura-branco.png">
+							</div><!--img-btn-->
+						</div><!--chamada-acao-->
+					</div><!--wraper-p btn-kit-->
+				</div><!--wraper-kit-single-->
+			</div><!--w33-->
+
+			<div class="w33">
+				<div class="wraper-kit-single">
+					<h2>kit 03</h2>
+					<img src="<?php echo INCLUDE_PATH?>img/kit-compra/quatro-frascos-hidraliso.png">
+					<div class="wraper-kit-p">
+						<p><b>Compre 3 leve 4</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p line-red">
+						<p>De <span class="line-line-red"></span>R$ 788,00 por apenas:</p>
+					</div><!--wraper-kit-p-->
+					<div class="wrpaer-kit-p preco-p">
+						<p><b>12x <span class="p-big">R$ 24,</span>80</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p preco-off">
+						<p>Ou R$ 247,00 à vista.<br><b>76% OFF</b></p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-kit-p p-frete frete-verde">
+						<p><i class="fas fa-truck"></i> FRETE GRÁTIS</p>
+					</div><!--wraper-kit-p-->
+					<div class="wraper-p btn-kit">
+						<div class="chamada-acao">
+							<div class="btn-rosa">
+								<a href="#"><i class="fas fa-thumbs-up"></i>Quero Este</a>
+							</div><!--btn-rosa-->
+							<div class="img-btn">
+								<img src="<?php echo INCLUDE_PATH?>img/compra-segura-preto-cinza.png">
+							</div><!--img-btn-->
+						</div><!--chamada-acao-->
+					</div><!--wraper-p btn-kit-->
+				</div><!--wraper-kit-single-->
+			</div><!--w33-->
+
+		</div><!--wraper-kit-->
+
+	</div><!--container-->
+</section><!--kit-compra-->
+
+<section class="entrega-segura">
+	<div class="container">
+		<h2 class="h2-section">Entrega Segura e GARANTIDA!</h2>
+		<p class="p-section">PEÇA O SEU HIDRALISO E RECEBA NO CONFORTO DE SUA CASA.</p>
+
+		<div class="wraper-msg">
+			<img src="<?php echo INCLUDE_PATH?>img/entrega-garantida/depimento-gisely-hidraliso.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/entrega-garantida/depoimento-bianca.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/entrega-garantida/depoimento-juliana.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/entrega-garantida/depoimento-raissa-hidraliso.jpg">
+			<img src="<?php echo INCLUDE_PATH?>img/entrega-garantida/editar-depoimento-nataly.jpg">
+		</div><!--wraper-msg-->
+
+	</div><!--container-->
+</section><!--entrega-segura-->
+
+<section class="midia">
+	<div class="container">
+		<h2>O QUE DIZEM NA MÍDIA SOBRE O HIDRALISO</h2>
+		<p>ELEITO COMO PRODUTO DESTAQUE PELA MÍDIA</p>
+
+		<div class="flex">
+
+			<div class="w33">
+				<img src="<?php echo INCLUDE_PATH?>img/midia/r7.png">
+				<p>“Uma mudança real em pouco tempo. A tecnologia, alcançou resultados expressivos. Toda mulher precisa descobrir isso”</p>
+			</div><!--w33-->
+
+			<div class="w33">
+				<img src="<?php echo INCLUDE_PATH?>img/midia/globo.png">
+				<p>“Uma mulher começa pelos cabelos; Com esse tratamento que ajuda em praticamente tudo. É o melhor amigo dos fios”</p>
+			</div><!--w33-->
+
+			<div class="w33">
+				<img src="<?php echo INCLUDE_PATH?>img/midia/gnt.png">
+				<p>“Algumas vitaminas participam do processo de alisamento dos fios, previnem queda e a quebra, fortalecem o cabelo desde a raiz, já que favorecem a circulação no couro cabeludo, resultando em um cabelo liso e saudável”</p>
+			</div><!--w33-->
+
+		</div><!--flex-->
+
+		<div class="chamada-acao">
+			<div class="btn-rosa">
+				<a href="#"><i class="fas fa-heart"></i>QUERO MEU CABELO LISO</a>
+			</div><!--btn-rosa-->
+			<div class="img-btn">
+				<img src="<?php echo INCLUDE_PATH?>img/compra-segura-branco.png">
+			</div><!--img-btn-->
+		</div><!--chamada-acao-->
+
+	</div><!--container-->
+</section><!--midia-->
+
+<section class="pirataria">
+	<div class="container">
+
+		<div class="wraper-img-pirata">
+			<img src="<?php echo INCLUDE_PATH?>img/anti-pirataria.png">
+		</div><!--wraper-img-pirata-->
+
+		<div class="wraper-p-pirata">
+			<h3>A venda do <b>Hidraliso</b> através de qualquer outro site está <b>PROIBIDO</b> e pode colocar a sua <b>SAÚDE EM RISCO.</b> Não compre falsificações e garanta um produto de qualidade, compre <b>APENAS</b> nesse site oficial.</h3>
+		</div><!--wraper-p-pirata-->
+
+	</div><!--container-->
+</section><!--pirataria-->
